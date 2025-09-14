@@ -81,7 +81,7 @@ Follow these steps to create a new project from scratch:
 5. Check the application logs from docker container
 
     ```sh
-    docker container logs <container_id>
+    docker container logs -f <container_id>
     ```
 
 ### API Testing
